@@ -1,0 +1,43 @@
+<div class="wrapper">
+    <div class="page-header section-dark" style="background-image: url('assets/img/background.png')">
+        <div class="filter"></div>
+        <div class="content-center">
+            <div class="container">
+                <div class="title-brand">
+                    <h1 class="presentation-title">Flex Inc.</h1>
+                </div>
+                <h2 class="presentation-subtitle text-center"></h2>
+            </div>
+        </div>
+    </div>
+    <div class="section section-light">
+        <div class="container">
+            <div class="row example-page">
+                <div class="col-md-6 text-center" routerLinkActive="active">
+                    <div class="img-hover-zoom">
+                        <a [routerLink]="['/terms']">
+                            <img src="./assets/img/terms and conditions.jpg" alt="Rounded Image"  style="width: 100%">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">
+                                <h2>
+                                    <b>Terms & Conditions</b>
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" routerLinkActive="active">
+                    <div class="img-hover-zoom">
+                        <a [routerLink]="['/privacy']">
+                            <img src="./assets/img/privacy.jpg" alt="Rounded Image" style="width: 100%">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white">
+                                <h2>
+                                    <b>Privacy Policy</b>
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
